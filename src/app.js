@@ -32,7 +32,6 @@ const rl = readline.createInterface({
 });
 function play() {
     const correct_answer = (0, crypto_1.randomInt)(1, 11);
-    console.log(`the answer is: ${correct_answer}`);
     console.log("Guess a number from one to ten. (1 - 10)");
     rl.question(">", (ua) => {
         if (parseInt(ua) === correct_answer) {
