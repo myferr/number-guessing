@@ -4,7 +4,7 @@
   "description": "This is a **very simple** number guessing game made in **JavaScript** 🟨",
   "main": "src/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ."
   },
   "author": "Myfer",
   "license": "ISC"
